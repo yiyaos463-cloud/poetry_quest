@@ -7,10 +7,6 @@
 > 一款通过游戏化闯关方式，让青少年沉浸式学习唐诗的移动应用。  
 > **从“旁观者”到“同行者”**——跟随李白走完万里远游的起点。
 
-<p align="center">
-  <img src="assets/images/demo_banner.png" alt="Poetry Quest Banner" width="800"/>
-</p>
-
 ## ✨ 核心亮点
 
 - **🎮 三层难度设计**  
