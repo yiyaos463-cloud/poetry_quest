@@ -1,0 +1,56 @@
+name: poetry_quest
+description: "A journey through Tang poetry with Li Bai."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0-144.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  provider: ^6.1.1
+  page_view_indicators: ^2.0.0
+  shared_preferences: ^2.2.2
+  audioplayers: ^6.0.0
+  http: ^1.6.0
+  share_plus: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/audio/libai_intro.mp3
+    - assets/audio/dufu_intro.mp3
+    - assets/audio/sushi_intro.mp3
+    - assets/audio/liqingzhao_intro.mp3
+    - assets/images/emei/layer_panorama.png
+    - assets/images/emei/layer_libai_boat.png
+    - assets/images/emei/layer_willow_leaves.png
+    - assets/images/emei/mood_qingleng.png
+    - assets/images/emei/mood_kaikuo.png
+    - assets/images/emei/hard_starry_bg.png
+    - assets/images/emei/layer_panorama_v2.png
+    - assets/images/emei/layer_libai_boat_v2.png
+    - assets/images/outfits/outfit_libai_shudi_qingshan.png
+    - assets/images/outfits/outfit_libai_lushan_yunhe.png
+    - assets/images/outfits/outfit_libai_jingyesi_yuebai.png
+    - assets/images/outfits/outfit_libai_xinglunan_changfeng.png
+    - assets/images/outfits/outfit_libai_qiangjinjiu_jinzun.png
+    - assets/images/outfits/outfit_libai_baidi_qingzhou.png
+    - assets/images/outfits/outfit_libai_dapeng_chuitian.png
+    - assets/audio/correct.mp3
+    - assets/audio/incorrect.mp3
+    - assets/audio/hard_bgm.mp3
+    - assets/audio/battle_bgm.mp3
+    - assets/audio/medium_empathy_bgm.mp3
+    - assets/audio/medium_context_bgm.mp3
+    - assets/audio/emei_poem.mp3
